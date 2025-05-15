@@ -19,7 +19,7 @@ export const Header = () => {
         </div>
 
         <div className="flex-1 flex justify-start ml-8">
-          <Link href="/registro">
+          <Link href="/miembros">
             <button
               className="font-medium bg-palette-blue hover:bg-palette-blue/90 text-palette-white px-5 py-2 rounded-md transition-colors duration-200"
             >
@@ -35,7 +35,7 @@ export const Header = () => {
           <Link href="/nosotros" className="text-sm font-medium transition-colors hover:text-scef-blue">
             Nosotros
           </Link>
-          <Link href="/nosotros" className="text-sm font-medium transition-colors hover:text-scef-blue">
+          <Link href="/donaciones" className="text-sm font-medium transition-colors hover:text-scef-blue">
             Donaciones
           </Link>
           <Link href="/contacto" className="text-sm font-medium transition-colors hover:text-scef-blue">
@@ -69,11 +69,11 @@ export const Header = () => {
                 Nosotros
               </Link>
               <Link
-                href="/beneficios"
+                href="/donaciones"
                 className="text-sm font-medium transition-colors hover:text-scef-blue"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Beneficios
+                Donaciones
               </Link>
               <Link
                 href="/contacto"
