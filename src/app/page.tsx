@@ -18,7 +18,7 @@ export default function Home() {
 		const interval = setInterval(() => {
 			const randomIndex = Math.floor(Math.random() * images.length);
 			setCurrentImage(images[randomIndex]);
-		}, 8000); // cambia cada 5 segundos
+		}, 8000);
 
 		return () => clearInterval(interval);
 	}, []);
