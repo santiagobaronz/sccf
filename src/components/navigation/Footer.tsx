@@ -12,11 +12,8 @@ export const Footer = () => {
 					&copy; {new Date().getFullYear()} Sociedad Colombiana de Ciencias Físicas. Todos los derechos reservados.
 				</p>
 				<div className="flex gap-4">
-					<Link href="/terminos" className="text-sm text-scef-white/80 hover:text-scef-white">
-						Términos
-					</Link>
-					<Link href="/privacidad" className="text-sm text-scef-white/80 hover:text-scef-white">
-						Privacidad
+					<Link href="/terminos_y_condiciones.pdf" target='_blank' className="text-sm text-scef-white/80 hover:text-scef-white">
+						Términos y condiciones
 					</Link>
 				</div>
 			</div>

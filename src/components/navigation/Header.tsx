@@ -32,14 +32,8 @@ export const Header = () => {
           <Link href="/" className="text-sm font-medium transition-colors hover:text-scef-blue">
             Inicio
           </Link>
-          <Link href="/nosotros" className="text-sm font-medium transition-colors hover:text-scef-blue">
+          <Link href="/#nosotros" className="text-sm font-medium transition-colors hover:text-scef-blue">
             Nosotros
-          </Link>
-          <Link href="/donaciones" className="text-sm font-medium transition-colors hover:text-scef-blue">
-            Donaciones
-          </Link>
-          <Link href="/contacto" className="text-sm font-medium transition-colors hover:text-scef-blue">
-            Contacto
           </Link>
         </nav>
 
@@ -62,25 +56,11 @@ export const Header = () => {
                 Inicio
               </Link>
               <Link
-                href="/nosotros"
+                href="/#nosotros"
                 className="text-sm font-medium transition-colors hover:text-scef-blue"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Nosotros
-              </Link>
-              <Link
-                href="/donaciones"
-                className="text-sm font-medium transition-colors hover:text-scef-blue"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Donaciones
-              </Link>
-              <Link
-                href="/contacto"
-                className="text-sm font-medium transition-colors hover:text-scef-blue"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Contacto
               </Link>
             </nav>
           </div>

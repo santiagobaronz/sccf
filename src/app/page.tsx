@@ -33,7 +33,7 @@ export default function Home() {
 				></div>
 
 				{/* Capa negra semi-transparente */}
-				<div className="absolute inset-0 bg-black-900/90 z-10"></div>
+				<div className="absolute inset-0 bg-black-900/75 z-10"></div>
 
 				<section className="w-full relative z-20 py-28 md:py-24 lg:py-32 xl:py-48 max-sm:px-5">
 					<div className="container px-4 md:px-6">
@@ -49,15 +49,13 @@ export default function Home() {
 								</div>
 								<div className="flex gap-x-5 flex-wrap">
 									<Link
-										href="/pending"
-										target="_blank"
+										href="/miembros"
 										className="home-link text-white font-normal px-8 py-2.5 bg-palette-blue rounded-md max-sm:mb-3"
 									>
 										Hazte Miembro
 									</Link>
 									<Link
-										href="/pending"
-										target="_blank"
+										href="/#nosotros"
 										className="home-link text-black font-normal px-8 py-2.5 bg-white rounded-md text-black-900"
 									>
 										Conoce más
@@ -71,7 +69,7 @@ export default function Home() {
 
 
 
-			<div className="bg-palette-white h-auto w-full py-20">
+			<div className="bg-palette-white h-auto w-full py-20" id="nosotros">
 				<div className="container px-4 md:px-6 flex flex-col items-center justify-center h-full">
 					<div className="flex flex-col items-center justify-center space-y-6 text-center max-w-6xl mx-auto">
 						<div className="inline-flex p-3 rounded-full bg-palette-blue/20 mb-2">
@@ -299,7 +297,7 @@ export default function Home() {
 							</p>
 						</div>
 						<div className="space-x-4">
-							<Link href="/registro">
+							<Link href="/miembros">
 								<button
 									className="font-medium bg-palette-blue hover:bg-palette-blue/90 text-palette-white px-5 py-2 rounded-md transition-colors duration-200"
 								>

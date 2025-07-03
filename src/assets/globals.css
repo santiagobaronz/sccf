@@ -5,3 +5,7 @@
 .bg-mision-vision {
   background-color: rgba(34, 69, 113, 0.32);
 }
+
+html {
+  scroll-behavior: smooth;
+}
